@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        html {
+            font-size: 62.5%;
+        }
+
+        .d1 {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background-color: rgb(229, 240, 242);
+
+        }
+
+        .d2 {
+            position: absolute;
+            left: 5rem;
+            top: 2rem;
+            width: 20rem;
+            height: 7rem;
+            background-color: blueviolet;
+        }
+
+        .d3 {
+            position: absolute;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            left: 3rem;
+            top: 11.5rem;
+            width: 24rem;
+            height: 7rem;
+            font-size: 2rem;
+            border-top: .3rem white solid;
+            border-bottom: .3rem white solid;
+            color: aliceblue;
+        }
+
+        .d4 {
+            position: absolute;
+            left: 3rem;
+            top: 13rem;
+            width: 5rem;
+            height: 5rem;
+            background-color: rgb(142, 238, 142);
+            border-radius: 50%;
+        }
+
+        .d5 {
+            position: absolute;
+            justify-content: space-around;
+            left: 3rem;
+            top: 20rem;
+            width: 24rem;
+            height: 25rem;
+            font-size: 2rem;
+            color: aliceblue;
+
+        }
+
+
+        #i1 {
+            position: absolute;
+            width: 30rem;
+            height: 100%;
+            background-color: rgb(24, 184, 24);
+        }
+
+        #i2 {
+            position: absolute;
+            left: 35rem;
+            top: 8rem;
+            width: 116.9rem;
+            height: 5rem;
+        }
+
+        #i3 {
+            position: absolute;
+            left: 37rem;
+            top: 18rem;
+            width: 110rem;
+            height: 5rem;
+        }
+
+        #i4 {
+            position: absolute;
+            left: 37rem;
+            top: 27rem;
+            width: 110rem;
+            height: 12rem;
+        }
+
+        #i5 {
+            position: absolute;
+            left: 37rem;
+            top: 41rem;
+            width: 110rem;
+            height: 12rem;
+        }
+
+        .nav2 {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        nav>div {
+            position: relative;
+            height: 12rem;
+            width: 34rem;
+            background-color: white;
+            border-radius: 2.7rem;
+
+        }
+
+
+        .nav1 {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        nav>input {
+            width: 26rem;
+            height: 4.4rem;
+            border-radius: 5%;
+            border: .2rem wheat;
+
+
+        }
+
+        nav>button {
+            width: 26rem;
+            height: 5rem;
+            border-radius: 5%;
+            border: .2rem solid rgb(211, 195, 195);
+            background-color: green;
+            color: aliceblue;
+            font-size: medium;
+        }
+
+        p>div {
+            position: absolute;
+            left: 0rem;
+            top: 2rem;
+            width: 5rem;
+            height: 5rem;
+        }
+
+        .img {
+            position: relative;
+            left: 2rem;
+            top: 2rem;
+            border-radius: 12rem;
+        }
+
+        .s1 {
+            position: absolute;
+            left: 12rem;
+            top: 2rem;
+            width: 20rem;
+            height: 8rem;
+        }
+
+        big {
+            color: green;
+        }
+
+        @media(max-width:998px) {
+            html {
+                font-size: 55%
+            }
+        }
+
+        @media(max-width:768px) {
+            html {
+                font-size: 45%
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="d1">
+        <div id="i1">
+            <div class="d2"><img
+                    src="https://scontent.fpnq7-5.fna.fbcdn.net/v/t1.6435-9/55557276_983698021826729_4939993567641731072_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=8631f5&_nc_ohc=Uddg7jYSsbMAX_5NBLF&_nc_ht=scontent.fpnq7-5.fna&oh=00_AfCC_uLlmmg2Nfr31g3KLU3T8UTxjlCGUVFPbD4GjctGTA&oe=63C4FB0B"
+                    alt="LOGO" height="70rem" width="200rem"></div>
+
+            <div class="d3">
+                <p>
+                    <b>Ashish Kumar</b><br>
+                    <small> Admin</small>
+                </p>
+            </div>
+
+            <div class="d4"></div>
+
+            <div class="d5">
+                <dl>
+                    <p> 🏡<b> Dashboard</b></p>
+
+                    <dd><small>Approvals</small></dd><br>
+                    <dd><small>Contact Us</small></dd><br>
+                    <dd><small>Members</small></dd>
+                </dl>
+            </div>
+
+        </div>
+        <div>
+            <div id="i2">
+                <h2><big><big><big>Dashboard</big></big></big></h2>
+            </div>
+            <div id="i3">
+                <nav class="nav1">
+                    <input type="text" placeholder="      Batch No.">
+                    <input type="text" placeholder="      Name">
+                    <input type="text" placeholder="      Designation">
+                    <button><b>Search</b></button>
+                </nav>
+            </div>
+
+            <div id="i4">
+                <nav class="nav2">
+                    <div>
+                        <img src="https://static.vecteezy.com/system/resources/thumbnails/005/545/335/small/user-sign-icon-person-symbol-human-avatar-isolated-on-white-backogrund-vector.jpg"
+                            alt="user" height="80rem" width="88rem" class="img">
+                        <div class="s1">
+                            <p><b><big><big><big><big>1000+</big></big></big></big></b><br><big><big>Total Registered
+                                        Students</big></big></p>
+                        </div>
+                    </div>
+                    <div>
+                        <img src="https://static.vecteezy.com/system/resources/thumbnails/005/545/335/small/user-sign-icon-person-symbol-human-avatar-isolated-on-white-backogrund-vector.jpg"
+                            alt="user" height="80rem" width="80rem" class="img">
+                        <div class="s1">
+                            <p><b><big><big><big><big>6</big></big></big></big></b><br><big><big>Request
+                                        Pending</big></big></p>
+                        </div>
+                    </div>
+                    <div><img
+                            src="https://static.vecteezy.com/system/resources/thumbnails/005/545/335/small/user-sign-icon-person-symbol-human-avatar-isolated-on-white-backogrund-vector.jpg"
+                            alt="user" height="80rem" width="80rem" class="img">
+                        <div class="s1">
+                            <p><b><big><big><big><big>500+</big></big></big></big></b><br><big><big>CA</big></big></p>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+
+
+            <div id="i5">
+                <nav class="nav2">
+                    <div>
+                        <img src="https://static.vecteezy.com/system/resources/thumbnails/005/545/335/small/user-sign-icon-person-symbol-human-avatar-isolated-on-white-backogrund-vector.jpg"
+                            alt="user" height="80rem" width="80rem" class="img">
+                        <div class="s1">
+                            <p><b><big><big><big><big>500+</big></big></big></big></b><br><big><big>Lawyers</big></big>
+                            </p>
+                        </div>
+                    </div>
+                    <div>
+                        <img src="https://static.vecteezy.com/system/resources/thumbnails/005/545/335/small/user-sign-icon-person-symbol-human-avatar-isolated-on-white-backogrund-vector.jpg"
+                            alt="user" height="80rem" width="80rem" class="img">
+                        <div class="s1">
+                            <p><b><big><big><big><big>100+</big></big></big></big></b><br><big><big>Doctors</big></big>
+                            </p>
+                        </div>
+                    </div>
+                    <div>
+                        <img src="https://static.vecteezy.com/system/resources/thumbnails/005/545/335/small/user-sign-icon-person-symbol-human-avatar-isolated-on-white-backogrund-vector.jpg"
+                            alt="user" height="80rem" width="80rem" class="img">
+                        <div class="s1">
+                            <p><b><big><big><big><big>100+</big></big></big></big></b><br><big><big>Doctors</big></big>
+                            </p>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>
